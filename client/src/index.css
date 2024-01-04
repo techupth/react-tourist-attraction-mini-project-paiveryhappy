@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Kanit", sans-serif;
+}
+header {
+  color: #339fdb;
+  margin-top: 50px;
+}
+
+input {
+  border-bottom: 2px solid gainsboro;
+  width: 100%;
+  text-align: center;
+  height: 3rem;
+}
+.search-trip {
+  width: 1000px;
+  margin: auto;
+  margin-top: 20px;
+}
+section {
+  width: 1200px;
+  margin: auto;
+}
+
+.group span {
+  margin-left: 5px;
+  text-decoration: underline;
+  color: grey;
+  cursor: pointer;
+}
+
+.card-list img {
+  width: 350px;
+  height: 250px;
+  border-radius: 30px;
+  object-fit: cover;
+}
+.content-word {
+  max-width: 100ch;
+}
+#read-more {
+  color: #339fdb;
+}
+.image-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.card-list p {
+  color: grey;
+}
+.copy-icon {
+  position: absolute;
+  right: 100px;
+}
+.copy-icon img {
+  width: 50px;
+  height: 50px;
+}
+.trip-detail {
+  width: 1000px;
+}
